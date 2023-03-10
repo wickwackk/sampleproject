@@ -1,0 +1,11 @@
+.filterBtn {
+  background: none;
+  height: 200px;
+  width: 300px;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+
+.filterBtn img {
+  width: 100px;
+}

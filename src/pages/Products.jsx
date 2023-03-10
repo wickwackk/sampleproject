@@ -1,4 +1,4 @@
-import { data } from "../data/products.js";
+import { products } from "../data/products.js";
 import Table from "react-bootstrap/Table";
 import Product from "../components/Product.jsx";
 import "../style/products.css";
@@ -6,8 +6,8 @@ import "../style/products.css";
 export default function Products() {
   return (
     <div className="table">
-      <Table striped bordered>
-        <thead>
+      <Table>
+        <thead className="thead align-middle">
           <tr>
             <th>Image</th>
             <th>Name</th>
@@ -18,9 +18,9 @@ export default function Products() {
             <th>Options</th>
           </tr>
         </thead>
-        <tbody>
-          {data.map((prod, index) => {
-            return <Product key={index} prod={prod} />;
+        <tbody className="tbody align-middle">
+          {products.map((prod, index) => {
+            if (index < 8) return <Product key={index} prod={prod} />;
           })}
         </tbody>
       </Table>

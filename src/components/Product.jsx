@@ -7,10 +7,10 @@ export default function Product({ prod }) {
         <img src={prod.image} alt={prod.name} />
       </td>
       <td>{prod.name}</td>
-      <td>{prod.price}</td>
+      <td>{prod.price}$</td>
       <td>{prod.brand}</td>
       <td>{prod.category}</td>
-      <td>{prod.sale}</td>
+      <td>{prod.sale}%</td>
       <td>
         <button>Edit</button>
         <button>Delete</button>

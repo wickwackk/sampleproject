@@ -1,4 +1,4 @@
-export const data = [
+export const products = [
   {
     id: "a4bbe2cc",
     description:

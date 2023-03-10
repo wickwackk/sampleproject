@@ -1,3 +1,7 @@
 .product img {
   width: 80px;
 }
+
+.product {
+  height: 100px;
+}

@@ -5,6 +5,7 @@ import FBrand from "./pages/FBrand";
 import FCategory from "./pages/FCategory";
 import LoadMore from "./pages/LoadMore";
 import Products from "./pages/Products";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 let btnNames = [
   { name: "All products", value: "all", component: <Products /> },

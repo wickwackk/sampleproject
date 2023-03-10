@@ -1,0 +1,15 @@
+.addprod input {
+  width: 48%;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  height: 40px;
+}
+
+.addprod button {
+  display: block;
+}
+
+.addprod select {
+  margin-bottom: 10px;
+  height: 40px;
+}
